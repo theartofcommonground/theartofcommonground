@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+header {
+    background: #e6e6e6;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header .subtitle {
+    font-size: 1.2em;
+    color: #777;
+}
+
+header img.podcast-cover {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: #444;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+section a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
